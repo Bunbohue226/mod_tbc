@@ -99,6 +99,32 @@
             text-align: center;
             border: 3px solid white;
         }
+        .support-circle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 300% 300%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    animation: gradientShift 3s infinite linear;
+    border: 3px solid white;
+    overflow: hidden;
+}
+
+        .support-circle:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
@@ -106,24 +132,23 @@
     <div class="content">
         <div class="description">Edit Data The Battle Cat là công cụ giúp bạn dễ dàng chỉnh sửa dữ liệu trong trò chơi The Battle Cat mà không cần phải root thiết bị. Với công cụ này, bạn có thể thay đổi thông số, mở khóa vật phẩm và tối ưu trải nghiệm chơi game của mình một cách nhanh chóng và tiện lợi.</div>
         <div class="button-container">
-            <a href="https://download1326.mediafire.com/wkcdzuwkkpbgmLfHysnrncvrLW2OS11J9ek17CQeYW21zvRA9Hs1sNrc17TuPyaEa0z6NV_P0bXEk-CEVqFjRzcqkV4pfdpiwh6goR6hbDnC7SaAjpC1mt2ScwSU1GOPW7vGgxd3OU_AxyKm2It7dylAhy-5iCneWjNcWJWRcuizLQ/n8arvrjyi3hqyeu/Edit+data+the+battle+cat.rar" class="button" download>
+            <a href="https://example.com/windows" class="button">
                 <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="Windows Logo">
-                Windows
-            </a>
-            
+                Download for Windows
             </a>
             <div class="row">
-                <a href="https://ymnnote.com/n/6d5663" class="button small-button">
+                <a href="https://example.com/ios" class="button small-button">
                     <img src="https://cdn-icons-png.flaticon.com/128/731/731985.png" alt="Apple Logo">
-                    iPhone / iOS
+                    Download for iPhone / iOS
                 </a>
-                <a href="https://ymnnote.com/n/6d567a" class="button small-button">
+                <a href="https://example.com/android" class="button small-button">
                     <img src="https://cdn-icons-png.flaticon.com/128/888/888857.png" alt="Android Logo">
-                    Android
+                    Download for Android
                 </a>
             </div>
         </div>
     </div>
     <img class="code-image" src="https://www.perkins.org/wp-content/uploads/2023/11/13.png" alt="Code Image">
+    <a href="https://www.facebook.com/profile.php?id=61568738242450" class="support-circle">Hỗ trợ</a>
 </body>
 </html>
