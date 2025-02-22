@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod the Battle Cat</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #222;
+            padding: 50px;
+            color: white;
+            font-family: Arial, sans-serif;
+            position: relative;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .content {
+            max-width: 500px;
+            text-align: center;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 3px solid white;
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+        }
+        .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .button {
+            font-size: 20px;
+            padding: 15px 30px;
+            border: 3px solid white;
+            border-radius: 8px;
+            background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet);
+            background-size: 300% 300%;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            animation: gradientShift 3s infinite linear;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+            text-decoration: none;
+        }
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        }
+        .button:active {
+            transform: scale(0.95);
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .button img {
+            width: 24px;
+            height: 24px;
+        }
+        .code-image {
+            width: 150%;
+            height: 150vh;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 3px;
+        }
+        .small-button {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            border: 3px solid white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Edit Data The Battle Cat</h1>
+    <div class="content">
+        <div class="description">Edit Data The Battle Cat là công cụ giúp bạn dễ dàng chỉnh sửa dữ liệu trong trò chơi The Battle Cat mà không cần phải root thiết bị. Với công cụ này, bạn có thể thay đổi thông số, mở khóa vật phẩm và tối ưu trải nghiệm chơi game của mình một cách nhanh chóng và tiện lợi.</div>
+        <div class="button-container">
+            <a href="https://download1326.mediafire.com/wkcdzuwkkpbgmLfHysnrncvrLW2OS11J9ek17CQeYW21zvRA9Hs1sNrc17TuPyaEa0z6NV_P0bXEk-CEVqFjRzcqkV4pfdpiwh6goR6hbDnC7SaAjpC1mt2ScwSU1GOPW7vGgxd3OU_AxyKm2It7dylAhy-5iCneWjNcWJWRcuizLQ/n8arvrjyi3hqyeu/Edit+data+the+battle+cat.rar" class="button" download>
+                <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="Windows Logo">
+                Windows
+            </a>
+            
+            </a>
+            <div class="row">
+                <a href="https://ymnnote.com/n/6d5663" class="button small-button">
+                    <img src="https://cdn-icons-png.flaticon.com/128/731/731985.png" alt="Apple Logo">
+                    iPhone / iOS
+                </a>
+                <a href="https://ymnnote.com/n/6d567a" class="button small-button">
+                    <img src="https://cdn-icons-png.flaticon.com/128/888/888857.png" alt="Android Logo">
+                    Android
+                </a>
+            </div>
+        </div>
+    </div>
+    <img class="code-image" src="https://www.perkins.org/wp-content/uploads/2023/11/13.png" alt="Code Image">
+</body>
+</html>
